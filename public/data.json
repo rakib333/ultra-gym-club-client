@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "yoga",
+        "title": "Yoga Class",
+        "time_needed": "1 hour",
+        "description": "A relaxing class that focuses on breathing, flexibility, and mindfulness.",
+        "img": "https://i.ibb.co/1GSRHSH/edgar-chaparro-s-Hfo3-WOg-GTU-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "spinning",
+        "title": "Spinning Class",
+        "time_needed": "45 minutes",
+        "description": "An intense cardio workout on stationary bikes that simulates outdoor cycling.",
+        "img": "https://i.ibb.co/pL7K2Bn/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "zumba",
+        "title": "Zumba Class",
+        "time_needed": "1 hour",
+        "description": "A high-energy dance fitness class that combines Latin and international music.",
+        "img": "https://i.ibb.co/2M6StwD/karsten-winegeart-0-Wra5-YYVQJE-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "name": "boxing",
+        "title": "Boxing Class",
+        "time_needed": "1.5 hours",
+        "description": "A total body workout that includes punching, kicking, and core strengthening exercises.",
+        "img": "https://i.ibb.co/NC7B13X/derick-mckinney-Qqv-TI5-Edc-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "name": "pilates",
+        "title": "Pilates Class",
+        "time_needed": "1 hour",
+        "description": "A low-impact class that focuses on core strength, flexibility, and body awareness.",
+        "img": "https://i.ibb.co/8srGT1f/tyler-nix-Y1dr-F0-Y3-Oe0-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "name": "kickboxing",
+        "title": "Kickboxing Class",
+        "time_needed": "1.5 hours",
+        "description": "A high-intensity workout that combines martial arts and cardio exercises.",
+        "img": "https://i.ibb.co/QffwJss/alexander-jawfox-Kl2t5-U6-Gkm0-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "name": "aerobics",
+        "title": "Aerobics Class",
+        "time_needed": "1 hour",
+        "description": "An energetic class that improves cardiovascular fitness through dance and aerobic movements.",
+        "img": "https://i.ibb.co/xGzZQzP/thomas-yohei-BAl-BUJb-SXQ-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "name": "strength_training",
+        "title": "Strength Training Class",
+        "time_needed": "1 hour",
+        "description": "A class that focuses on building strength, muscle tone, and overall body conditioning.",
+        "img": "https://i.ibb.co/HgknjYB/bruce-mars-g-Jt-Dg6-Wf-Ml-Q-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "name": "piloxing",
+        "title": "Piloxing Class",
+        "time_needed": "1.5 hours",
+        "description": "A fusion of Pilates, boxing, and dance for a full-body workout and improved agility.",
+        "img": "https://i.ibb.co/4KBbSm8/anastase-maragos-f-G0p4-Qh-a-WI-unsplash.jpg"
+    }
+]
