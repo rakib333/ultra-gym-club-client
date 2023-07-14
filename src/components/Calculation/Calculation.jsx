@@ -15,13 +15,6 @@ const Calculation = ({ time }) => {
 
             <div className='break-btn'>
                 <h2>Add a break</h2>
-                {/* <div className="break-btn">
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
-                </div> */}
                 {
                     breaksTime.map(br => <button onClick={() => handleAddTime(br)} key={br}>{br}</button>)
                 }
