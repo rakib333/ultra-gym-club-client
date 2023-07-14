@@ -1,0 +1,23 @@
+.icons {
+    font-size: 25px;
+    color: rgb(223, 112, 112);
+}
+
+.header span {
+    font-size: 25px;
+    color: blue;
+    margin-left: 6px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 30px;
+}
+
+.site-calculation {
+    margin-left: 15px;
+    background-color: rgb(138, 192, 192);
+    padding-top: 20px;
+    padding-left: 10px;
+}

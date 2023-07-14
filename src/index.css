@@ -4,3 +4,23 @@
   outline: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1280px;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #F2F4FA;
+}
