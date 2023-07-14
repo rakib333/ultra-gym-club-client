@@ -1,22 +1,30 @@
-// import React from 'react';
+
+// import { useState } from 'react';
 import { useState } from 'react';
 import './Calculation.css'
 
-const Calculation = () => {
-    const [time, setTime] = useState(0);
+const Calculation = ({ time }) => {
+    const breaksTime = [10, 20, 30, 40, 50];
+    const [breaks, setBreaks] = useState(0);
+    const handleAddTime = time => {
+        setBreaks(time)
+    }
     return (
         <div className='calculation-container'>
             <h3>Habibullah Rakib</h3>
 
-            <div>
+            <div className='break-btn'>
                 <h2>Add a break</h2>
-                <div className="break-btn">
+                {/* <div className="break-btn">
                     <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
-                </div>
+                    <button>10s</button>
+                    <button>10s</button>
+                    <button>10s</button>
+                    <button>10s</button>
+                </div> */}
+                {
+                    breaksTime.map(br => <button onClick={() => handleAddTime(br)} key={br}>{br}</button>)
+                }
             </div>
 
 
@@ -24,7 +32,11 @@ const Calculation = () => {
                 <h2>Exercise Details</h2>
                 <div className='time-add'>
                     <span>Exercise time</span>
-                    <small>{time} minutes</small>
+                    <small style={{ color: 'green', fontSize: '20px', fontWeight: "bold" }}>{time} m</small>
+                </div>
+                <div className='time-add'>
+                    <span>Break time</span>
+                    <small style={{ color: 'green', fontSize: '20px', fontWeight: "bold" }}>{breaks} s</small>
                 </div>
             </div>
 

@@ -1,5 +1,7 @@
 .calculation-container {
     margin-top: 20px;
+    position: sticky;
+    top: 50px;
 }
 
 .calculation-container h2 {
@@ -29,6 +31,9 @@
 .time-add {
     background-color: aliceblue;
     padding: 10px;
+    width: 96%;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .time-add span {

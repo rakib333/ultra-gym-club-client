@@ -2,7 +2,7 @@
 import './Product.css'
 
 function Product({ product, handleAddToList }) {
-    const { id, img, description, title, time_needed, age } = product;
+    const { img, description, title, time_needed, age } = product;
     return (
         <div className="product-container">
             <div className="product-card">
@@ -13,7 +13,7 @@ function Product({ product, handleAddToList }) {
                     <p>{age} years</p>
                     <p>Time needed: {time_needed} minutes</p>
                 </div>
-                <button onClick={() => handleAddToList(id, time_needed)}>Add to list</button>
+                <button onClick={() => handleAddToList(product)}>Add to list</button>
             </div>
 
         </div>
